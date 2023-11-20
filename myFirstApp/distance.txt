@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class DistanceCalculator {
+	public static void calculateDistance(int t) {
+		int u=10,a=5;
+		double distance=(u*t+(a*t*t)/2);
+		System.out.println(distance);
+		
+	}
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int t=in.nextInt();
+		calculateDistance(t);
+	}
+
+}
